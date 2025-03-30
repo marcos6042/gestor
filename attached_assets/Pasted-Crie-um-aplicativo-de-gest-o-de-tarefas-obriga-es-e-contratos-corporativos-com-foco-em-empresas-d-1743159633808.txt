@@ -1,0 +1,99 @@
+Crie um aplicativo de gestão de tarefas, obrigações e contratos corporativos, com foco em empresas de contabilidade, mas que também atenda os departamentos financeiro, compras, administrativo, diretoria e outros. O sistema deve incluir os seguintes módulos e funcionalidades:
+
+✅ 1. Cadastro de Empresas e Controle de Obrigações
+Cadastro de empresas com CNPJ, razão social, regime tributário (Simples, Presumido, Real, SCP).
+
+Associação de obrigações: DCTF, EFDs, SPEDs, DEFIS, ECD, ECF, IRPF, FGTS, encargos, folha etc.
+
+Vencimento, competência, recorrência e responsável definidos por obrigação.
+
+✅ 2. Cadastro de Usuários com Foto e Papéis
+Cadastro de colaboradores com:
+
+Nome, e-mail, foto, cargo, setor.
+
+Níveis de acesso: colaborador, gestor, administrador, cliente.
+
+Associação do usuário a um ou mais departamentos.
+
+✅ 3. Cadastro de Departamentos
+Registro de setores como: Contabilidade, Fiscal, Financeiro, Compras, RH, Administrativo, Diretoria.
+
+Cada tarefa, usuário ou contrato pode ser vinculado a um ou mais departamentos.
+
+✅ 4. Cadastro e Controle de Contratos
+Cadastro de contratos com:
+
+Empresa vinculada, tipo (fornecimento, prestação de serviços, locação etc), número, data de início e fim.
+
+Campos de valor, reajuste, vigência, responsável, status (ativo, renovado, encerrado).
+
+Upload de arquivo PDF e anexos complementares.
+
+Tarefas vinculadas ao contrato (ex: renovações, vencimentos, revisões).
+
+✅ 5. Calendário Fiscal e de Tarefas Integrado
+Visual mensal por departamento ou geral.
+
+Exibe vencimentos de obrigações, tarefas e contratos.
+
+Alertas automáticos com personalização por tipo, responsável ou cliente.
+
+✅ 6. Tarefas com Vencimento, Competência e Recorrência
+Criação de tarefas com:
+
+Data de vencimento
+
+Competência de referência
+
+Recorrência (mensal, bimestral, trimestral etc)
+
+Departamento, responsável, empresa vinculada
+
+Status (pendente, em andamento, finalizado, com pendência do cliente)
+
+Comentários internos, checklist, anexos
+
+✅ 7. Equipe e Responsabilidades
+Atribuição de tarefas com controle de responsáveis e permissões.
+
+Níveis de acesso por setor, tipo de tarefa ou cliente.
+
+Visualização e histórico de participação por tarefa.
+
+✅ 8. Arquivos e Anexos
+Upload de arquivos em tarefas e contratos: guias, comprovantes, protocolos, contratos, PDFs, planilhas.
+
+Armazenamento em nuvem ou integração com Google Drive / OneDrive.
+
+Visualização agrupada por empresa, contrato ou tarefa.
+
+✅ 9. Histórico e Auditoria
+Log de ações por tarefa, contrato e usuário: data, ação, quem fez.
+
+Histórico de pendências resolvidas, alterações de status e interações.
+
+✅ 10. Relatórios e Dashboards
+Relatórios por:
+
+Tarefas por colaborador, competência, setor
+
+Obrigações por cliente
+
+Contratos por status e vencimento
+
+Pendências por tipo, departamento e data
+
+Exportação em Excel e PDF
+
+✅ 11. Importação e Integrações
+Importação de planilhas com status de obrigações ou contratos.
+Integração com e-mail, WhatsApp e ferramentas de armazenamento.
+
+✅ 12. Área do Cliente
+Upload de documentos (ex: movimentação, notas, folhas).
+
+Recebimento de notificações e acompanhamento do status das obrigações.
+
+Visualização dos comprovantes entregues e pendentes.
+

@@ -1,0 +1,49 @@
+--- client/src/pages/competence-calendar-page.tsx
++++ client/src/pages/competence-calendar-page.tsx
+@@ -651,19 +651,19 @@
+                                     </div>
+                                     <div className="flex items-center gap-1">
+                                       <Briefcase className="h-4 w-4 text-gray-400" />
+-                                      <span>{getCompanyById(task.companyId)}</span>
++                                      <span>{getCompanyById(task.companyId || undefined)}</span>
+                                     </div>
+                                     <div className="flex items-center gap-1">
+                                       <Users className="h-4 w-4 text-gray-400" />
+-                                      <span>{getDepartmentById(task.departmentId)}</span>
++                                      <span>{getDepartmentById(task.departmentId || undefined)}</span>
+                                     </div>
+                                     <div className="flex items-center gap-1">
+                                       <Avatar className="h-4 w-4">
+                                         <AvatarFallback className="text-xs">
+-                                          {getUserInitials(task.responsibleId)}
++                                          {getUserInitials(task.responsibleId || undefined)}
+                                         </AvatarFallback>
+                                       </Avatar>
+-                                      <span>{getUserById(task.responsibleId)}</span>
++                                      <span>{getUserById(task.responsibleId || undefined)}</span>
+                                     </div>
+                                   </div>
+                                 </div>
+@@ -783,19 +783,19 @@
+                                               </div>
+                                               <div className="flex items-center gap-1">
+                                                 <Briefcase className="h-4 w-4 text-gray-400" />
+-                                                <span>{getCompanyById(task.companyId)}</span>
++                                                <span>{getCompanyById(task.companyId || undefined)}</span>
+                                               </div>
+                                               <div className="flex items-center gap-1">
+                                                 <Users className="h-4 w-4 text-gray-400" />
+-                                                <span>{getDepartmentById(task.departmentId)}</span>
++                                                <span>{getDepartmentById(task.departmentId || undefined)}</span>
+                                               </div>
+                                               <div className="flex items-center gap-1">
+                                                 <Avatar className="h-4 w-4">
+                                                   <AvatarFallback className="text-xs">
+-                                                    {getUserInitials(task.responsibleId)}
++                                                    {getUserInitials(task.responsibleId || undefined)}
+                                                   </AvatarFallback>
+                                                 </Avatar>
+-                                                <span>{getUserById(task.responsibleId)}</span>
++                                                <span>{getUserById(task.responsibleId || undefined)}</span>
+                                               </div>
+                                             </div>
